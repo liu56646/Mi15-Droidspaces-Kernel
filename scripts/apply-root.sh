@@ -33,7 +33,7 @@ SUSFS_BRANCH="${SUSFS_BRANCH:-gki-android15-6.6}"
 # commit landed. 8224c73 (its parent) is the newest gki-android15-6.6 revision
 # verified to not reference ksu_install_su_fd. Upgrade SUSFS_REF only together
 # with KSU_REF - the two pins must stay a coherent pair.
-SUSFS_REF="${SUSFS_REF:-8224c73}"
+SUSFS_REF="${SUSFS_REF:-09fec8aa}"   # v1.5.7 (2025-04) = matches gki-android15-6.6 @ 6.6.77
 
 KDIR="$KROOT/common"
 [ -d "$KDIR/drivers" ] || { echo "::error::expected kernel tree at $KDIR"; exit 1; }
