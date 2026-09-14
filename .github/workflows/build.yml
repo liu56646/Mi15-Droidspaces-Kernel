@@ -18,6 +18,8 @@ on:
           # 2026-07-20, between r37 (07-15) and r38 (07-29), so r37/r38 is the
           # closest match to the vendor modules on the device. r1 is 2026-01 code
           # and boots to a logo hang on OS4.
+          - android15-6.6-2025-03_r31  # 6.6.77  <- dada stock sublevel (OS3.0.305)
+          - android15-6.6-2025-03_r32  # 6.6.77
           - android15-6.6-2026-01_r37  # 6.6.118  <- closest to stock build date
           - android15-6.6-2026-01_r38  # 6.6.118
           - android15-6.6-2026-01_r1   # 6.6.118  (Jan code, hangs on OS4)
